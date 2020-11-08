@@ -1,2 +1,40 @@
 # myApp
 自作のAppです
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>ブログ作成ページ</title>
+</head>
+<body>
+  <h2 class="topTitle">ブログ作成ページ</h2>
+<form action="blog_create.php" method="POST">
+  <label>
+    <p>ブログタイトル</p>
+    <input name="title" type="text" class="inputText">
+    <p>ブログ本文</p>
+    <textarea name="content" id="content" cols="" rows="10" class="textArea"></textarea>
+    <p>カテゴリ選択</p>
+    <select name="category" class="category">
+      <option value="1">エブリデイ</option>
+      <option value="2">プログラミング</option>
+      <option value="3">アウトプット</option>
+      <option value="4">ファミリー</option>
+    </select>
+    <br>
+    <input type="radio" name="publish" value="1" checked>公開
+    <input type="radio" name="publish" value="2">非公開
+    <br>
+    <input type="submit" value="送信"  class="inputSubmit">
+  </label>
+</form>
+<div class="backHome">
+  <a href="index.php">戻る</a>
+</div>
+<div>
+  
+</div>
+</body>
+</html>
