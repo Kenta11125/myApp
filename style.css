@@ -1,0 +1,184 @@
+body {
+  background-color: lightblue;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  min-height: 100vh;
+}
+ul {
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+p {
+  white-space: pre-wrap;
+}
+a {
+text-decoration: none;
+color: black;
+display: block;
+}
+a:hover {
+  text-decoration: underline;
+  color: tomato;
+  opacity: 0.8;
+}
+.topTitle {
+  color: lightseagreen;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+textarea {
+  resize: none;
+}
+.list {
+  display: flex;
+  margin-top: 16px;
+}
+.newCreate {
+  background-color: gold;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 24px;
+}
+.newCreatePost {
+  background-color: gold;
+  margin-top: 8px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.blog {
+  background-color: gold;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 24px;
+}
+.MSpost {
+  background-color: gold;
+  padding: 8px;
+  border-radius: 5px;
+}
+.study {
+  background-color: gold;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.newCreate_under {
+  background-color: gold;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 32px;
+}
+.mypage {
+  background-color: gold;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 24px;
+}
+.post {
+  background-color: gold;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 24px;
+}
+.upload {
+  background-color: gold;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 24px;
+}
+table {
+  margin: 0 auto;
+  font-size: 16px;
+  padding-top: 24px;
+}
+th, .td {
+  border-bottom: solid 1px darkolivegreen;
+}
+th, td.td {
+  padding-top: 24px;
+}
+.detail, .update, .delete{
+  padding-right: 24px;
+  padding-left: 24px;
+  border-bottom: solid 1px darkolivegreen;
+}
+form > * {
+  font-size: 24px;
+}
+.backHome, .loginSubmit {
+  background-color: gold;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.inputText, .inputSubmit, .inputEmail, .inputPass {
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  margin-top: 24px;
+}
+.textArea {
+  margin-top: 16px;
+  width: 50%;
+}
+.category {
+  width: 50%;
+  height: 32px;
+}
+.user, .email {
+  font-size: 24px;
+}
+.listPic {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+}
+.fileDelete {
+  display: block;
+}
+
+.postBlock {
+  background-color: rgba(150, 219, 240, 0.767);
+  border: 1px solid black;
+  margin-top: 8px;
+  border-radius: 3px;
+}
+.postName {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin: 0;
+}
+.postTime {
+  text-align: right;
+  padding-right: 20px;
+  margin: 0;
+}
+.postDelete {
+  text-align: left;
+  padding-left: 20px;
+  margin: 0;
+}
+.postText {
+  margin: 0;
+  margin-bottom: 8px;
+}
+.appList {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
